@@ -1,0 +1,78 @@
+body {
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+.main {
+    background-color: #fff5f5;
+    margin: 0 auto;
+    height: 200px;
+}
+
+p {
+    font-size: 22px; 
+    color: #000000;
+}
+
+a {
+    color: #9484f2;
+}
+
+.photo {
+    width: 400px;
+    margin: 0 auto; /*картинка в конце просто для теста если что*/
+}
+
+.theme-button {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #715bee;
+    border: 1px solid #715bee;
+}
+
+.theme-button:active {
+    opacity: 0.5;
+  }
+
+.theme-button:hover {
+    color: #ffffff;
+    background-color: #715bee;
+  }
+
+.theme-button:focus {
+    outline-color: #b6aaff;
+  }
+
+  /*dark theme btw*/
+.dark-theme {
+    color: #ddd5d5;
+    background-color: #17161a;
+}
+
+.dark-theme a {
+    color: #715bee
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+.dark-theme .main {
+    background-color: #3f3c53;
+}
+
+.dark-theme p {
+    color:#ccc3c3;
+}
+
+
+ 

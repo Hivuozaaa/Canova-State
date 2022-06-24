@@ -7,6 +7,7 @@ body {
     background-color: #fff5f5;
     margin: 0 auto;
     height: 200px;
+    border: 3px solid #96969b;
 }
 
 p {
@@ -38,7 +39,7 @@ a {
 }
 
 .theme-button:active {
-    opacity: 0.5;
+    opacity: 50%;
   }
 
 .theme-button:hover {
@@ -60,11 +61,15 @@ a {
     color: #715bee
 }
 
-.dark-theme .theme-button:focus,
 .dark-theme .theme-button:hover {
   color: #17161a;
   background-color: #9484f2;
 }
+
+.dark-theme .theme-button:focus {
+    color: #715bee;
+    background-color: #ffffff;
+  }
 
 .dark-theme .main {
     background-color: #3f3c53;
@@ -74,5 +79,42 @@ a {
     color:#ccc3c3;
 }
 
+.dark-theme .juvibutton:focus,
+.dark-theme .juvibutton:hover {
+    color: #17161a;
+    background-color: #9484f2;
+}
+
+/*Конец темной темы*/
+
+.juvi {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.juvibutton {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #715bee;
+    border: 1px solid #715bee;
+}
+
+.juvibutton:active {
+    opacity: 50%;
+}
+
+.juvibutton:hover {
+    color: #ffffff;
+    background-color: #715bee;
+}
+
+.juvibutton:focus {
+    outline-color: #b6aaff;
+}
 
  
